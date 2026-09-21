@@ -8,13 +8,12 @@ per-image errors are logged and skipped; the script survives, reports what it go
 import json
 import sys
 import time
-from collections import Counter
 from pathlib import Path
 
 sys.path.insert(0, r"C:\AI\vlm-defect-benchmark-v5\src")
 
-from defectbench.config import get_settings  # noqa: E402
-from defectbench.vlm import OllamaVLM  # noqa: E402
+from defectbench.config import get_settings
+from defectbench.vlm import OllamaVLM
 
 settings = get_settings()
 settings.artifacts_dir = Path(r"C:\AI\vlm-defect-benchmark-v5\artifacts")
