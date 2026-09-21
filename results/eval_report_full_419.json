@@ -1,0 +1,21 @@
+{
+  "model": "defect-qwen-vl (v5: Qwen2.5-VL-3B + QLoRA, 6 categories, 504 train records)",
+  "n_eval": 419,
+  "n_scored": 419,
+  "json_validity": 1.0,
+  "accuracy": 0.778,
+  "precision": 0.768,
+  "recall": 0.928,
+  "f1": 0.8405,
+  "confusion": {
+    "tp": 245,
+    "fp": 74,
+    "tn": 81,
+    "fn": 19
+  },
+  "defect_type_exact_acc": 0.4735,
+  "defect_type_fuzzy_acc": 0.4811,
+  "severity_acc_v5_scheme": 0.2816,
+  "avg_latency_s": 64.4,
+  "errors": 0
+}
