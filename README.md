@@ -1,5 +1,9 @@
 # VLM Defect Detection
 
+[![CI](https://github.com/vikt-sav/vLM-defect-detection/actions/workflows/ci.yml/badge.svg)](https://github.com/vikt-sav/vLM-defect-detection/actions/workflows/ci.yml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Python 3.11+](https://img.shields.io/badge/python-3.11%2B-blue.svg)](pyproject.toml)
+
 Пайплайн визуального контроля качества на vision-language модели: **дообучение Qwen2.5-VL-3B через QLoRA** и сравнение трёх подходов к инспекции дефектов на одном эталонном наборе.
 
 ## Что это и для чего
